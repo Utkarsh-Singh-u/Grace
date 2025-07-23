@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import "./servicePage.css"
+import PrePack from './PrePack';
+import Events from './Events';
 
 // Sample services data with updated structure
 const servicesData = [
@@ -69,39 +71,6 @@ const servicesData = [
         name: 'Casmara',
         price: "₹700",
         detail: 'A premium 60-minute full-body massage with Casmara products',
-      },
-    ],
-  },
-  {
-    id: 4,
-    heading: 'Reception Makeup',
-    image: 'https://tejaswinimakeupartist.com/wp-content/uploads/2021/06/Soft-Eye-Makeup-For-Indian-Engagement.jpg',
-    detail: 'Professional makeup services for a stunning look at any event',
-    services: [
-      {
-        name: 'Mac HD',
-        price: "₹6500",
-        detail: 'High-definition makeup application using Mac products for a flawless finish',
-      },
-      {
-        name: 'Mackeup Studio (Airbrush)',
-        price: "₹8000",
-        detail: 'Airbrush makeup for a seamless, long-lasting event look',
-      },
-      {
-        name: 'Forever 52 HD',
-        price: "₹8000",
-        detail: 'High-definition makeup with Forever 52 products for vibrant results',
-      },
-      {
-        name: 'Bobbi Brown HD',
-        price: "₹10000",
-        detail: 'Premium Bobbi Brown makeup application for a sophisticated look',
-      },
-      {
-        name: 'Bobbi Brown HD (with Airbrush)',
-        price: "₹12000",
-        detail: 'Airbrush-enhanced Bobbi Brown makeup for a perfect, radiant finish',
       },
     ],
   },
@@ -676,10 +645,6 @@ const ServiceDetail = ({ service, onClose }) => (
   </div>
 );
 
-
-
-
-
 // Main Services Page Component
 const ServicesPage = () => {
   const [selectedService, setSelectedService] = useState(null);
@@ -695,9 +660,15 @@ const ServicesPage = () => {
   return (
     <div className="min-h-screen bg-[#ffe6e9] py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
+
+        <PrePack/>
+
+        <Events/>
+
         <h1 className="text-3xl font-bold text-center text-[#800040] mb-12">
-          
+          Our Services
         </h1>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {servicesData.map((service) => (
             <ServiceCard

@@ -58,60 +58,30 @@ const Services = () => {
           <span style={{ fontFamily:'"Fondamento"'}} className="font-semibold text-6xl">Our Services</span>
         </motion.h1>
 
-<div className="flex flex-col md:flex-row items-center justify-between gap-8 px-4 py-10 ml-20 mr-20 mb-10">
-  {/* Text Content */}
-  <div
-    className="text-2xl md:text-3xl leading-relaxed md:w-1/2 font-light"
-    style={{ fontFamily: "Vibur, cursive" }}
-  >
-    At Grace Professional Unisex Salon, we offer everything from hair coloring services
-    and highlights to straightening and texturizing, and even up-dos and facial waxing —
-    all at a fantastic value. Every service begins with our fantastic consultation.
-  </div>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8 px-4 py-10 ml-20 mr-20 mb-10">
+          {/* Text Content */}
+          <div
+            className="text-2xl md:text-3xl leading-relaxed md:w-1/2 font-light"
+            style={{ fontFamily: "Vibur, cursive" }}
+          >
+            At Grace Professional Unisex Salon, we offer everything from hair coloring services
+            and highlights to straightening and texturizing, and even up-dos and facial waxing —
+            all at a fantastic value. Every service begins with our fantastic consultation.
+          </div>
 
-  {/* Image Section */}
-  <div className="md:w-2/5 w-full">
-    <img
-      src={image1}
-      alt="Salon"
-      className="w-full rounded-3xl object-cover shadow-lg"
-    />
-  </div>
-</div>
+          {/* Image Section */}
+          <div className="md:w-2/5 w-full">
+            <img
+              src={image1}
+              alt="Salon"
+              className="w-full rounded-3xl object-cover shadow-lg"
+            />
+          </div>
+        </div>
 
 
         {/* Services Grid */}
         <ServicesPage/>
-        {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 ml-20 mr-20">
-          {services.map((service) => (
-            <motion.div
-              key={service.id}
-              className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl"
-              variants={cardVariants}
-              initial="hidden"
-              animate="visible"
-              whileHover="hover"
-              transition={{ delay: service.id * 0.2 }} // Staggered animation
-            >
-              <img
-                src={service.image}
-                alt={service.title}
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <h2 className="text-xl font-semibold text-gray-800 mb-2">
-                  {service.title}
-                </h2>
-                <p className="text-gray-600 mb-4">{service.description}</p>
-                <p className="text-lg font-bold text-pink-600">{service.price}</p>
-                <button className="mt-4 w-full bg-pink-500 text-white py-2 rounded-md hover:bg-pink-600 transition-colors duration-300">
-                  Book Now
-                </button>
-              </div>
-            </motion.div>
-          ))}
-        </div> */}
-
 
         {/* Call to Action */}
         <motion.div

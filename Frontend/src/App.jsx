@@ -7,6 +7,7 @@ import ContactPage from './Pages/Contact';
 import BlogPage from './Pages/Blog';
 import BlogDetailPage from './Pages/BlogDetail';
 import AboutUs from './Pages/AboutUs';
+import AppointmentPage from './Pages/Appointment';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/blog' element={<BlogPage />} />
         <Route path='/blog/:id' element={<BlogDetailPage />} />
         <Route path='/aboutus' element={<AboutUs />} />
+        <Route path='/appointment' element={<AppointmentPage />} />
       </Routes>
     </div>
   )

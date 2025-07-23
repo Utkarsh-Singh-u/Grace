@@ -224,7 +224,7 @@ const Navbar = () => {
         <li
           className={` hover:pb-2 cursor-pointer font-serif  transition-all duration-200 relative group hidden lg:block  `}
         >
-          <a href="/">About Us</a>
+          <a href="/aboutus">About Us</a>
           <div
             className={`absolute bottom-0 w-full h-1 hidden group-hover:block  transition-all duration-200  bg-white`}
           ></div>
