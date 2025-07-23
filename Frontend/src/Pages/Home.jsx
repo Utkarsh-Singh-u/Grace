@@ -10,17 +10,17 @@ const services = [
   {
     title: 'Hair Styling',
     description: 'Transform your look with our expert hair styling services.',
-    image: 'https://images.unsplash.com/photo-1600948836101-f9ffda7d5b30?w=500&auto=format&fit=crop',
+    image: 'https://hips.hearstapps.com/hmg-prod/images/person-styling-hair-royalty-free-image-1608056805.?crop=0.66635xw:1xh;center,top&resize=980:*',
   },
   {
     title: 'Nail Art',
     description: 'Get stunning nail designs tailored to your style.',
-    image: 'https://images.unsplash.com/photo-1610992021291-236141e3d5cb?w=500&auto=format&fit=crop',
+    image: 'https://shraddhabridalstudio.com/wp-content/uploads/2024/05/B.jpeg',
   },
   {
     title: 'Spa Treatments',
     description: 'Relax and rejuvenate with our luxurious spa services.',
-    image: 'https://images.unsplash.com/photo-1600334085066-016a2d0c46f7?w=500&auto=format&fit=crop',
+    image: 'https://content.jdmagicbox.com/v2/comp/ghazipur/m9/9999px548.x548.241226141426.m4m9/catalogue/gmnepaolumlf6vy-7gj2i1qu3o.jpg',
   },
 ];
 

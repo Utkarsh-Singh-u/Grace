@@ -8,7 +8,7 @@ function ServiceCard({ title, description, image }) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <img src={image} alt={title} className="w-full h-48 object-cover" />
+      <img src={image} alt={title} className="w-full h-60 object-cover" />
       <div className="p-6">
         <h3 className="text-xl font-semibold text-gray-800">{title}</h3>
         <p className="mt-2 text-gray-600">{description}</p>

@@ -112,7 +112,7 @@ const ContactPage = () => {
           </form>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 mb-60">
       < MapEmbed/>
       </div>
     </div>
